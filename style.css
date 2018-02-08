@@ -1,0 +1,67 @@
+body,
+p,
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('./bg.jpg');
+}
+
+.background {
+	height: 80vh;
+	padding-top: 20vh;
+}
+
+.container {
+	width: 90%;
+	text-align: center;
+	background: rgba(23, 38, 54, 0.7);
+	margin: auto;
+	border-radius: 10px;
+	border: 1px rgb(6, 246, 215) solid;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.image {
+	width: 120px;
+	border-radius: 50%;
+	margin: -60px 0 20px;
+}
+
+.text {	
+	padding: 0 12% 20px;
+}
+
+.text p { margin-top: 10px; }
+
+.text-1 { color: #00C851; }
+
+.text-2 { color: #ff4444; }
+
+.links { 
+	padding: 0 20% 20px; 
+	text-align: center;
+}
+
+.links a {
+	color: white;
+	font-size: 36px;
+	margin: 10px;
+}
+
+@media screen and (min-width: 600px) {
+	.container { width: 60%; }
+
+	.links { padding: 0 0 20px; }
+}
+
+@media screen and (min-width: 1000px) {
+	.background {
+		height: 70vh;
+		padding-top: 30vh;
+	}
+	.container { width: 600px; }
+}
